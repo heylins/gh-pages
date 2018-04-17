@@ -1,0 +1,25 @@
+/*  index.html   */
+body {
+    font-family: 'Dancing Script';
+    background-color: #02010A;
+    margin: 0px;
+    width:100%;
+}
+
+
+.contenido {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.cabecera {
+  background: #5b7989;
+  border-radius: 10px 10px 0px 0px;
+  padding: 15px;
+  color: white;
+  font-size: 32px;
+  text-align: left;
+  text-shadow: 2px 2px 2px #02010a;
+}
