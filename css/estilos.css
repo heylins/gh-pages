@@ -6,13 +6,11 @@ body {
     width:100%;
 }
 
-
 .contenido {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
 }
-
 
 .cabecera {
   background: #5b7989;
@@ -42,4 +40,67 @@ nav>a.inicio {
 img {
   box-shadow: 2px 2px 2px #02010A;
 
+}
+
+.principal {
+  margin: 0px;
+  padding: 15px;
+  background: #82c3a6;
+}
+
+#img_1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.secundaria {
+  margin: 0px;
+  background: #d5c75f;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  align-items: space-around;
+  -webkit-display: flex;
+  -webkit-flex-direction: row;
+  -webkit-flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+  -webkit-align-items: center;
+}
+
+.secundaria>div {
+  flex: 0 0;
+  -webkit-flex:0 0;
+}
+
+#img_left {
+  order: 1;
+  -webkit-order: 1;
+}
+
+#img_right {
+  order: 2;
+  -webkit-order: 2;
+}
+
+.secundaria>div>a>figure>img {
+  border: 1px black solid;
+  width: 320px;
+}
+
+.secundaria>div>a>figure>figcaption {
+  color: black;
+}
+
+#img_left>a>figure>img:first-child:hover {
+  transform: rotateZ(10deg);
+  box-shadow:2px 2px 2px #82c3a6;
+  border: 2px black solid;
+}
+#img_right>a>figure>img:first-child:hover {
+  transform: translate(20px, -5px);
+  box-shadow:2px 2px 2px #82c3a6;
+  border: 2px black solid;
 }
