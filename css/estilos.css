@@ -314,3 +314,138 @@ a.inicio {
   order: 6;
   -webkit-order: 6;
 }
+
+/*   Responsive stylesheet  */
+
+
+@media (max-width: 899px) {
+
+/******* index.html *******/
+
+  .contenido {
+    margin: 0px;
+    width: 100%;
+  }
+
+  nav {
+    float: none;
+  }
+
+  #img_1 {
+    width: 100%;
+  }
+
+  .secundaria {
+      flex-direction: column;
+      -webkit-flex-direction: column;
+  }
+
+  .secundaria>div {
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .secundaria>div>a>figure>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+  }
+
+  .pie_de_pagina {
+      flex-direction: column;
+      -webkit-flex-direction: column;
+  }
+
+  .pie_de_pagina>div {
+    width: 100%;
+  }
+
+  #box1 {
+    margin-bottom: 10px;
+  }
+
+  #box2 {
+    margin-bottom: 10px;
+  }
+
+  #box3 {
+    margin-bottom: 10px;
+  }
+
+  .pie_de_pagina>div {
+    max-width: 320px;
+    height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* paisajes.html *******/
+
+  .paisajes {
+      flex-direction: column;
+      -webkit-flex-direction: column;
+  }
+
+  .paisajes>div {
+    width: 100%;
+  }
+
+  #paisaje_02 {
+    margin-top: 0px
+  }
+  #paisaje_03 {
+    margin-top: 0px
+  }
+  #paisaje_04 {
+    margin-bottom: 15px;
+  }
+  #paisaje_05 {
+    margin-bottom: 15px;
+  }
+  #paisaje_06 {
+    margin-bottom: 15px;
+  }
+
+  .paisajes>div>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+  }
+
+
+  /*  retratos.html *******/
+
+  .retratos {
+      flex-direction: column;
+      -webkit-flex-direction: column;
+  }
+
+  .retratos>div {
+    width: 100%;
+  }
+
+  #retrato_02 {
+    margin-top: 0px
+  }
+  #retrato_03 {
+    margin-top: 0px
+  }
+  #retrato_04 {
+    margin-bottom: 15px;
+  }
+  #retrato_05 {
+    margin-bottom: 15px;
+  }
+  #retrato_06 {
+    margin-bottom: 15px;
+  }
+  .retratos>div>img {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+  }
